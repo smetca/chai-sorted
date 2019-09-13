@@ -5,6 +5,9 @@
 [![devDependency Status](https://david-dm.org/johntimothybailey/chai-sorted/dev-status.svg)](https://david-dm.org/johntimothybailey/chai-sorted#info=devDependencies)
 [![peerDependency Status](https://david-dm.org/johntimothybailey/chai-sorted/peer-status.svg)](https://david-dm.org/johntimothybailey/chai-sorted#info=peerDependencies)
 
+# Fork
+This is a fork of chai-sorted, I have only added some small functionality to allow for expecting if numbers represented as strings are sorted
+
 # Chai Sorted
 
 Chai JS Plugin for testing if an array has sorted values (strings, numbers, booleans). Very helpful when writing tests for features that implement `Array.prototype.sort()`
@@ -16,7 +19,7 @@ Chai JS Plugin for testing if an array has sorted values (strings, numbers, bool
 Install via [npm](http://npmjs.org):
 
 ```bash
-npm install chai-sorted
+npm install sams-chai-sorted
 ```
 
 Use this plugin just like other Chai plugins:
@@ -26,7 +29,7 @@ Use this plugin just like other Chai plugins:
 var chai = require("chai"),
     expect = chai.expect; // preference and tested with expect
 
-chai.use(require("chai-sorted"));
+chai.use(require("sams-chai-sorted"));
 ```
 
 ### In the browser
