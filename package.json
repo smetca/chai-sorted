@@ -1,6 +1,6 @@
 {
   "name": "sams-chai-sorted",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fork of chai-sorted with the added functionality of being able to sort by numbers given as strings",
   "main": "index.js",
   "directories": {
